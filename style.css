@@ -1,0 +1,117 @@
+*body {
+    width: 100%;
+  }
+
+  main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 60px auto;
+    box-shadow: inset;
+    height: 85vh;
+  }
+
+  svg {
+    width: 50px;
+    height: 30px;
+  }
+  .wrap {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    color: #797bd4;
+  }
+  .wrapper {
+    width: 20%;
+    min-height: 30px;
+    background-color: snow;
+    padding: 30px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0 20px;
+  }
+
+  span {
+    color: gray;
+    font-weight: lighter;
+  }
+
+  .header {
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    color: #b3b3b3;
+  }
+  .progress-wrap {
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    margin: 0 20px;
+  }
+  .bg-blue {
+    background-color: #797bd4;
+    height: 12px;
+    width: 28%;
+    border-radius: 50px;
+  }
+
+  .progress-value {
+    font-weight: lighter;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .progress-value h3 {
+    font-size: 12px;
+    color: #b3b3b3;
+  }
+  .option-wrap {
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .option-wrap svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .option-wrap h3 {
+    font-size: 15px;
+    color: #b3b3b3;
+    margin: 0 10px;
+  }
+  .occurrence-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 5px 2px;
+  }
+  .occurrence-wrap button {
+    /* padding: 10px 40px; */
+    border-radius: 50px;
+    cursor: pointer;
+    width: 140px;
+    padding: 10px 0;
+  }
+
+  .btn-value1 {
+    background-color: rgb(224, 224, 20);
+    border: none;
+  }
+  .btn-value2 {
+    background-color: #abebab;
+    border: none;
+  }
+  .btn-value3 {
+    background-color: rgb(252, 181, 181);
+    border: none;
+  }
+  .btn-default {
+    background-color: rgb(243, 155, 243);
+    border: none;
+  }
